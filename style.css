@@ -1,0 +1,69 @@
+*{
+	font-family:Arial;
+}
+#world{
+	position:absolute;
+	background:linear-gradient(to top, #24363f, #182530);
+	width:800px;
+	height:600px;
+	border:4px #364754 solid;
+}
+
+.menu{
+	position:absolute;
+	border:4px #364754 solid;
+	width:800px;
+	height:600px;
+	z-index:100;
+}
+
+#startButton{
+	position:absolute;
+	top:100px;
+	bottom:100px;
+	left:100px;
+	right:100px;
+	background-color:#888;
+	cursor:pointer;
+	box-shadow:20px 20px 20px 0px #000 inset, -20px -20px 20px 0px #fff inset;
+	text-align:center;
+	font-size:50px;
+	padding-top:180px;
+}
+#startButton:hover{
+	background-color:#ddd;
+}
+
+.platform{
+	position:absolute;
+	background:linear-gradient(to top, #fff, #888);
+	box-shadow:2px 2px 4px 0px #000 inset, -2px -2px 4px 0px #fff inset;
+}
+.tile{
+	position:absolute;
+	box-shadow:2px 2px 4px 0px #000 inset, -2px -2px 4px 0px #fff inset;
+}
+.t1{
+	background-color:#0f0;
+}
+.t2{
+	background-color:#f00;
+}
+.t3{
+	background-color:#f80;
+}
+.t4{
+	background-color:#ff0;
+}
+.t5{
+	background-color:#444;
+}
+.bonus{
+	position:absolute;
+	background-color:#88f;
+	box-shadow:2px 2px 4px 0px #000, 2px 2px 4px 0px #000 inset, -2px -2px 4px 0px #fff inset;
+}
+.ball{
+	position:absolute;
+	background:radial-gradient(#fff, #888);	
+}
